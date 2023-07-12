@@ -19,7 +19,7 @@ class RegistrationForm extends Component {
   }
 
   onChangeLastName = event => {
-    const {value} = event
+    const {value} = event.target
 
     this.setState({lastNameInput: value})
   }
@@ -55,7 +55,7 @@ class RegistrationForm extends Component {
   }
 
   onChangeFirstName = event => {
-    const {value} = event
+    const {value} = event.target
 
     this.setState({firstNameInput: value})
   }
